@@ -1,13 +1,58 @@
+/* TARJETAS */
 .card {
-    border-radius: 10px;
-    transition: 0.3s;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.3s ease;
 }
 
 .card:hover {
-    transform: scale(1.05);
-    transition: 0.3s;
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.5);
 }
 
+.card p {
+    text-align: center;
+}
+
+/* TITULOS */
+.card h5 {
+
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+/* BOTONES */
+.btn-primary {
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.btn-outline-light {
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+/* SECCIÓN */
 section {
-    padding: 40px 0;
+    padding: 15px 0;
+}
+
+#habilidades {
+    position: relative;
+    top: -20px; 
+  }
+  
+
+#habilidades h2 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+#habilidades .row {
+    margin-top: 32px;
+}
+
+#sobre-mi {
+    margin-bottom: 50px;
 }
